@@ -53,6 +53,17 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      fontFamily: {
+        inter: ['var(--font-inter'],
+        spaceGrotesk: ['var(--font-spaceGrotesk)'],
+      },
+      backgroundImage: {
+        "auth-dark": "url('/assets/images/auth-dark.png')",
+        "auth-light": "url('/assets/images/auth-light.png')",
+      },
+      screens: {
+        xs: "420px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
