@@ -6,6 +6,7 @@ import React from 'react'
 import Search from './Search'
 import { SignedIn, UserButton } from '@clerk/nextjs'
 import ToggleMode from './ToggleMode'
+import NavbarMobile from './NavbarMobile'
 
 const Navbar = () => {
   return (
@@ -23,9 +24,10 @@ const Navbar = () => {
 
         <Search/>
 
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-2">
 
             <ToggleMode/>
+
         {/* <SignedIn>
             <UserButton
                 afterSignOutUrl='/'
@@ -39,6 +41,8 @@ const Navbar = () => {
                 }}
             />
         </SignedIn> */}
+
+            <NavbarMobile/>
 
         </div>
     </nav>
