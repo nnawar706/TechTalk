@@ -1,7 +1,10 @@
 
 const SidebarLeft = () => {
   return (
-    <div>SidebarLeft</div>
+    <section className="left-0 top-0 flex h-screen flex-col justify-between 
+    overflow-y-auto max-sm:hidden ">
+      left
+    </section>
   )
 }
 
