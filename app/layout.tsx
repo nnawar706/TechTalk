@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+
 import { Inter, Space_Grotesk } from 'next/font/google'
 
 import "./globals.css"
@@ -43,7 +44,13 @@ export default function RootLayout({
             //   formButtonPrimary: 'primary-gradient',
             //   footerActionLink: 'primary-text-gradient hover:text-primary-500'
             // }
-            // variables: {}
+            variables: {
+              colorText: "#15151c",
+              colorPrimary: "#ff851b",
+              colorBackground: "#fff",
+              colorInputBackground: "#fff",
+              colorInputText: "#15151c",
+            }
           }}
         >
           <ThemeProvider

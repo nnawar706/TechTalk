@@ -1,5 +1,6 @@
 export interface Link {
-    icon: string;
+    id: number;
     route: string;
     label: string;
+    icon?: any;
 }

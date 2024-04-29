@@ -8,37 +8,32 @@ export const themes = [
 
 export const sidebarLinks: Link[] = [
     {
-        icon: "/assets/icons/home.svg",
+        id: 1,
         route: "/",
         label: "Home",
     },
     {
-        icon: "/assets/icons/users.svg",
+        id: 2,
         route: "/community",
         label: "Community",
     },
     {
-        icon: "/assets/icons/star.svg",
+        id: 3,
         route: "/collection",
         label: "Collections",
     },
     {
-        icon: "/assets/icons/suitcase.svg",
-        route: "/jobs",
-        label: "Find Jobs",
-    },
-    {
-        icon: "/assets/icons/tag.svg",
+        id: 4,
         route: "/tags",
         label: "Tags",
     },
     {
-        icon: "/assets/icons/user.svg",
+        id: 5,
         route: "/profile",
         label: "Profile",
     },
     {
-        icon: "/assets/icons/question.svg",
+        id: 6,
         route: "/ask-question",
         label: "Ask a question",
     },
