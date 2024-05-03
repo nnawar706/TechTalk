@@ -10,8 +10,8 @@ const SidebarLeft = () => {
   const pathname = usePathname()
   
   return (
-    <section className="sticky left-0 top-0 w-60 pt-36 px-6 bg-gray-50 dark:bg-gray-900 
-    hidden lg:flex flex-col justify-between">
+    <section className="sticky left-0 top-0 w-60 pt-28 px-6 bg-gray-50 dark:bg-gray-900 
+    hidden lg:flex flex-col">
       <nav className="flex flex-col justify-center gap-4">
         {sidebarLinks.slice(0, 4).map((item) => {
           const isActive = pathname === item.route

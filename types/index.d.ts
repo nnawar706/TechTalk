@@ -4,3 +4,10 @@ export interface Link {
     label: string;
     icon?: any;
 }
+
+export interface TagProp {
+    id: string;
+    name: string;
+    totalCount?: number;
+    showCount?: boolean;
+}
