@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import Link from 'next/link'
 import { usePathname } from "next/navigation"
 import Image from "next/image"
@@ -64,7 +63,7 @@ const NavbarMobile = () => {
                     </SignedIn>
 
                     <SignedOut>
-                        <Button asChild className="mt-6">
+                        <Button asChild className="mt-6 bg-orange-400 hover:bg-orange-500">
                             <Link href="/sign-in">Get Started</Link>
                         </Button>
                     </SignedOut>
